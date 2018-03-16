@@ -1,0 +1,23 @@
+{
+  "name": "phaser3",
+  "version": "1.0.0",
+  "main": "",
+  "repository": {},
+  "license": "MIT",
+
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "file-loader": "^0.11.2",
+    "flow-bin": "^0.55.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+
+  "scripts": {
+    "webpack:watch": "webpack-dev-server --inline"
+  }
+}

@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Editor cruft (I guess it's actually also maybe reasonable to check this in?)
+.vscode
+
 # Runtime data
 pids
 *.pid
@@ -35,6 +38,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+
+# Build directory
+dist/
 
 # Typescript v1 declaration files
 typings/
