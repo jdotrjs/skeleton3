@@ -1,0 +1,41 @@
+Scenes and Structure
+  - What is a scene, why do we use them
+  - How do you scene transitions happen
+  - how (and why) do you use more than one at a time
+  - what state is associated with a scene and how do you share information
+    between them
+  - example: trivial dot clicking thing (let's call it ZenGame)
+  - homework: Rewrite first game using a more extensible structure
+
+Adding atmosphere
+  - Music
+  - graphical effects (filters & masks)
+  - example: add music and blur effect to background scene in ZenGame
+  - homework: add music and sound effects to FirstGame
+
+Some Polish
+  - Menu system
+  - Session local (i.e. not using local storage) high scores
+  - Tweening in some basic UI shit
+  - example: session "high scores" (time played per round) on ZenGame
+  - homework: Add menus and leaderboards to FirstGame
+
+Competition
+  - Local coop
+  - Textboxy UI element (HTML?)
+  - remote leaderboard (basics of fetch API + polyfill + running an API)
+  - example: add Name to ZenGame, submit playtime to remote server
+  - homework: add a second player to FirstGame, Take user names & track wins
+
+Remote Competition
+  - Remote competition
+    - TODO: what similar stuff maps to ZenGame?
+  - labby
+  - example: add state-saving to ZenGame to simulate game state transfer
+    & authoritative server
+  - homework: add lobby + game setup + remote comp
+
+Ultimate goal
+  I'd like to get to a place where we've modified the FirstGame project to have
+  a functional menu system along with high scores and local/remote competition
+  gameplay modes and a lobby.
