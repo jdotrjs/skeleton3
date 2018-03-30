@@ -5,7 +5,8 @@ const u = require('./webpack.util.js')
 // lists all files rooted at the directory `base`
 const fileList = base => u.getFilesIn(u.getDirPath(base))
 
-const main = './src/index.js'
+// const main = './src/index.js'
+const main = './src/alt-index.js'
 const indexHtml = path.resolve(__dirname, 'src', 'index.html')
 const vendor = fileList('vendor')
 const assets = fileList('assets')
